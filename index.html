@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>Data-For-Loop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="card" data-for="users">
+
+            <div class="left">
+                <div class="avatar" data-avatar="avatar"></div>
+            </div>
+
+            <div class="right">
+                <div class="name" data-each="name">
+                    Full name
+                </div>
+                <div class="email" data-each="email">
+                    Email
+                </div>
+                <div class="address" data-each="address">
+                    Address
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="faker.js"></script>
+    <script src="utils.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
